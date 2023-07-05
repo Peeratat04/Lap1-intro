@@ -4,16 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        .title {
+            font-family: "Tamoha";
+            color: green;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .title1 {
+            font-family: "Tamoha";
+            color: purple;
+            letter-spacing: 0.5px;
+            text-align: center;
+        }
+        .title2 {
+            display: flex;
+            justify-content: center;
+        }
+        .image {
+            height: 300px; 
+            width: 300px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image1 {
+            height: 100px; 
+            width: 100px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .padding_box {
+            padding: 30px;
+            border: 2px dotted blue;
+        }
+    </style>
 </head>
-<body>
-    <h1>ประวัติส่วนตัว</h1>
-    <p>สวัสดีครับผมชื่อ นายพีรธัช เคนผา <br>- ชื่อเล่นชื่อ พี <br>- อายุ 18 <br>- จบชั้นมัธยมศึกษาจากโรงเรียน "ตะพานหิน" </p>
+<body style="background-color: rgb(212, 201, 193);">
+    <h1 class="title">ประวัติส่วนตัว
+    </h1>
+    <h4 class="title1">สวัสดีครับผมชื่อ นายพีรธัช เคนผา <br>- ชื่อเล่นชื่อ พี <br>- อายุ 18 <br>- จบชั้นมัธยมศึกษาจากโรงเรียน "ตะพานหิน" </p>
 
-    <a href="https://www.taphanhin.ac.th/">Taphanhin_School/Website</a>
-    
+</html>
+    <a style="color: rgb(226, 43, 144);" class="title2" href ="https://www.taphanhin.ac.th/">Taphanhin_School/Website</a>
     <hr>
-    <img src="Me.jpg" height="200px" width="400px" alt="">
+    <img class="image" src="Me.jpg" height="200px" width="400px" alt="Me">
     <hr>
 
+    <div class="padding_box">
+        <p>สุดหล่อ</p>
+        <img class="image1" src="Duck.gif" height="200px" width="400px" alt="Me">
+    </div>
 </body>
 </html>
